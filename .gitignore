@@ -1,0 +1,54 @@
+### Based on GitHub's gitignore recommendation for Java: https://github.com/github/gitignore/blob/master/Java.gitignore
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### Based on a Eclipse-specific gitignores found in random Stack Overflow posts:
+# https://stackoverflow.com/questions/18726217/gitignore-file-for-java-eclipse-project
+# https://stackoverflow.com/a/35114367/
+
+.classpath
+.settings/
+.project
+
+.metadata
+local.properties
+
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+### Custom - ignore Maven targets, too
+
+/target
