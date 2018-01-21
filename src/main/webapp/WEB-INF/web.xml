@@ -9,4 +9,12 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <servlet-name>Game</servlet-name>
+    <servlet-class>com.solaidoff.headsupholdem.web.PlayGame</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Game</servlet-name>
+    <url-pattern>/Play</url-pattern>
+  </servlet-mapping>
 </web-app>
